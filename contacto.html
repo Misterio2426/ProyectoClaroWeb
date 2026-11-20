@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - ProyectoClaroWeb</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    main {
+      max-width: 600px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 8px;
+    }
+    label {
+      display: block;
+      margin-top: 12px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px 18px;
+      background-color: #2ea44f;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Formulario de Contacto</h1>
+    <p>Práctica de GitHub Pages</p>
+  </header>
+  <main>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" placeholder="Escribe tu nombre">
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" placeholder="ejemplo@correo.com">
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" rows="4" placeholder="Escribe tu consulta"></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+</body>
+</html>
